@@ -11,8 +11,6 @@ function Item(props) {
   arr.splice(50);
   if(arr.length>49){arr.push('...')}
 
- 
-  console.log(arr.length);
   return (
     <div className="item">
       <div className="item-image">
